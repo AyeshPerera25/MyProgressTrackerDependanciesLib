@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyProgressTrackerDependanciesLib.Models.DataTransferObjects
 {
-    internal class DeleteStudySession : RequestWrapper
+    public class DeleteStudySessionReq : RequestWrapper
     {
         [Required]
         public int StudySessionId { get; set; }
