@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyProgressTrackerDependanciesLib.Models.DataTransferObjects
 {
-    public class LogoutRes : ResponseWrapper
+    public class UserLogoutRes : ResponseWrapper
     {
     }
 }
